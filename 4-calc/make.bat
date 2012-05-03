@@ -1,0 +1,2 @@
+cl.exe /o calc.exe /nologo /O2 /TC main.c calculation.c check_pointer.c compute.c get_numb.c is_err.c  priority.c stack.c sorter.c
+link.exe -out:calc.exe calculation.obj check_pointer.obj compute.obj get_numb.obj is_err.obj main.obj priority.obj stack.obj sorter.obj

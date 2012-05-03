@@ -1,0 +1,1 @@
+gcc -Wall main.c calculation.c check_pointer.c stack.c is_err.c compute.c get_numb.c priority.c -o calc
