@@ -1,0 +1,1 @@
+gcc -Wall -O3 -pg main.c top_sort.c list.c -o topsort

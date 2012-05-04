@@ -1,0 +1,2 @@
+cl.exe /O2 /GS- /GL /FD /MT /Zc:wchar_t- /W4 /nologo /c /TC /errorReport:prompt main.c list.c top_sort.c
+link.exe /INCREMENTAL:NO /NOLOGO /MANIFEST /SUBSYSTEM:CONSOLE /OPT:NOWIN98 /LTCG /MACHINE:X86 /ERRORREPORT:PROMPT -out:topsort.exe main.obj list.obj top_sort.obj
