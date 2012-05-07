@@ -1,0 +1,1 @@
+gcc -Wall allocArrayOfLists.c getEdges.c main.c memoryFree.c readFirstValues.c searchAndPrint.c -o 9-dijkstra-path
