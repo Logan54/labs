@@ -1,0 +1,2 @@
+cl.exe /O2 /TC /Gm /Zc:wchar_t- /c /MDd main.c is_empty_file.c get_size_from_file.c decompres.c fill_code.c buf.c fill_file.c get_option.c get_probtree.c write_tree.c RLE.c array_to_zero.c
+link.exe /NOLOGO /SUBSYSTEM:CONSOLE /OPT:NOWIN98 /MACHINE:X86 /ERRORREPORT:PROMPT -out:huffman.exe buf.obj main.obj is_empty_file.obj get_size_from_file.obj decompres.obj fill_code.obj fill_file.obj get_option.obj get_probtree.obj write_tree.obj RLE.obj array_to_zero.obj

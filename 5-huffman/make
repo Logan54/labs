@@ -1,0 +1,1 @@
+gcc -O2 -g -Wall -pg -Wextra -Wconversion -Winit-self -Wunreachable-code -Wformat-security -Wstrict-overflow=5 -Wlogical-op -o huffman huffman.h bitarray.h main.c is_empty_file.c get_size_from_file.c decompres.c fill_code.c buf.c fill_file.c get_option.c get_probtree.c write_tree.c RLE.c array_to_zero.c
